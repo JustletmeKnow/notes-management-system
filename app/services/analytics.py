@@ -4,7 +4,7 @@ from collections import Counter
 from sqlalchemy.orm import Session
 from app.database.models.note import Note
 
-nltk.download("punkt")
+nltk.download("punkt_tab")
 
 
 def analyze_notes(db: Session):
