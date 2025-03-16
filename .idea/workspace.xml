@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a8b916-c54b-4ac5-be39-c7e1f79894b0" name="Changes" comment="">
+    <list default="true" id="f5a8b916-c54b-4ac5-be39-c7e1f79894b0" name="Changes" comment="Change library versions. Fix on nltk data loading call">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/analytics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JustletmeKnow"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JustletmeKnow&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JustletmeKnow/notes-management-system.git",
-    "accountId": "28b6a6ea-e4ef-48c6-b5c8-daa9480020fb"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JustletmeKnow/notes-management-system.git&quot;,
+    &quot;accountId&quot;: &quot;28b6a6ea-e4ef-48c6-b5c8-daa9480020fb&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -38,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_ai.test_summarize_note.executor": "Run",
-    "Python tests.Python tests for test_analytics.test_analyze_notes.executor": "Run",
-    "Python tests.Python tests for test_notes.test_create_note.executor": "Run",
-    "Python tests.Python tests for test_notes.test_delete_note.executor": "Run",
-    "Python tests.Python tests for test_notes.test_get_note.executor": "Run",
-    "Python tests.Python tests for test_notes.test_update_note.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/FastAPIProject",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_ai.test_summarize_note.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_analytics.test_analyze_notes.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_notes.test_create_note.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_notes.test_delete_note.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_notes.test_get_note.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_notes.test_update_note.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FastAPIProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\technical_task\app\api\v1" />
@@ -165,6 +164,15 @@
       <option name="presentableId" value="Default" />
       <updated>1741813867744</updated>
     </task>
+    <task id="LOCAL-00001" summary="Change library versions. Fix on nltk data loading call">
+      <option name="closed" value="true" />
+      <created>1742082359494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742082359494</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,5 +195,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change library versions. Fix on nltk data loading call" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change library versions. Fix on nltk data loading call" />
   </component>
 </project>

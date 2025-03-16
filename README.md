@@ -62,7 +62,7 @@ The project is implemented using the following technologies and approaches:
 
 3. **Analyze**:
 
-   - The `analyze_notes` function uses the `nltk` library to analyze text. It counts the total number of words, average note length, most frequent words, etc.
+   - The `analyze_notes` function uses the `nltk` library to analyze text. It counts the total number of words, average note length, most frequent words, and the 3 longest and shortest notes.
 
    - Tests for analyze check if the word count and other metrics are correct.
 
@@ -93,8 +93,22 @@ cd notes-management-system
 
 
 
-### 2. Dependency installation
-   - Make sure you have Python 3.13 or higher installed. Then install the dependencies:
+### 2. Сreating and activating the virtual environment
+   - Create a virtual environment
+
+```bash
+python -m venv venv
+```
+   - Activate the virtual environment
+
+```bash
+.\venv\Scripts\activate
+```
+
+
+
+### 3. Dependency installation
+   - Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -102,7 +116,7 @@ pip install -r requirements.txt
 
 
 
-### 3. Launching the application
+### 4. Launching the application
    - Start the FastAPI application:
 
 ```bash
